@@ -1,7 +1,7 @@
 :root{
   --background: #eaeeef;
   --border: #999;
-  --primary: #086177;
+  --primary: rgb(60,121,127);;
 }
 
 .App {
