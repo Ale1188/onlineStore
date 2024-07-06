@@ -1,0 +1,18 @@
+.qt-picker button{
+    margin: 5px;
+    background-color: #d4d4d4;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lessBtn:hover{
+    background-color: red;
+}
+
+.moreBtn:hover{
+    background-color: green;
+}

@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.footerUp {
+    margin-bottom: 20px;
+}
+
+.footerUp a {
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+.footerUp a:hover {
+    text-decoration: underline;
+}
+
+.footerDown {
+    font-size: 14px;
+    margin-top: 10px;
+}
