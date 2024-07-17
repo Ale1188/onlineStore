@@ -41,6 +41,12 @@
     margin-right: 15px;
 }
 
+.product i{
+    font-size: 18px;
+}
+
+
+/* buttons */
 .addBtn {
     background-color: #4CAF50;
     color: black;

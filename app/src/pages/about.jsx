@@ -22,7 +22,7 @@ function About(){
     }
 
     return(
-        <div className="about">
+        <div className="about page">
             <h2>Johan Barragan</h2>
 
             {getInfo()}
@@ -33,4 +33,4 @@ function About(){
     );
 }
 
-export default About;
+export default About;   

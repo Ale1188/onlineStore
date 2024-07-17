@@ -57,7 +57,7 @@ const data = [
 
 function Catalog(){
     return(
-        <div className='catalog'>
+        <div className='catalog page'>
             <h1>Check our Amazing catalog!</h1>
 
             <div className='filters'>

@@ -1,7 +1,7 @@
 :root{
-  --background: #eaeeef;
+  --background: linear-gradient(to bottom, #e0f7fa, #b2ebf2, #b3e5fc, #b3d9ff);
   --border: #999;
-  --primary: rgb(60,121,127);;
+  --primary: rgb(60,121,127);
 }
 
 .App {
@@ -9,7 +9,7 @@
 }
 
 body{
-  background-color: lightgray;
+  background: linear-gradient(to right, #e0f7fa, #b2ebf2, #b3e5fc, #b7d8fc);
 }
 
 .App-logo {
@@ -45,4 +45,8 @@ body{
   to {
     transform: rotate(360deg);
   }
+}
+
+.page{
+  min-height: calc(100vh - 105px);
 }

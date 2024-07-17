@@ -1,3 +1,18 @@
 .navbar{
     background-color: rgb(60,121,127);
 }
+
+.title-nav{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5px;
+}
+
+/* .text-cont{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 5px;
+} */
