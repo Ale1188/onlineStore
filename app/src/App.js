@@ -5,6 +5,7 @@ import Catalog from './pages/catalog';
 import About from './pages/about';
 import Home from './pages/home';
 import Admin from './pages/admin';
+import Cart from './pages/cart';
 import GlobalProvider from './state/globalProvider';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
@@ -27,6 +28,7 @@ function App() {
             <Route path='/catalog' element={<Catalog/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/admin' element={<Admin/>}/>
+            <Route path='/cart' element={<Cart/>}/>
           </Routes>
           
           <Footer/>

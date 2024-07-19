@@ -16,3 +16,12 @@
     text-decoration: none;
     margin: 5px;
 } */
+
+.navbar label{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar .btn-user{
+    margin-right: 12px;
+}

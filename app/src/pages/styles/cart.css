@@ -1,0 +1,36 @@
+.cart .container{
+    display: flex;
+}
+.cart .list{
+    flex: 5;
+}
+
+.cart .menu{
+    flex: 2;
+}
+
+.cart .cart-prod{
+    display: flex;
+    background-color: lightyellow;
+    border: 1px solid #dedede;
+    padding-right: 5px;
+    margin: 12px;
+    align-items: center;
+}
+
+.cart .cart-prod h5{
+    flex: 3;
+}
+
+.cart .cart-prod label{
+    flex: 1;
+}
+
+.cart .cart-prod button{
+    width: 80px;
+}
+
+.cart .cart-prod img{
+    padding: 5px;
+    width: 10%;
+}
