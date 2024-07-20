@@ -10,7 +10,23 @@ function GlobalProvider(props){
         console.log("Global fn")
 
         var copy = [...cart];
-        copy.push(product);
+
+        let found = false;
+
+        for(let i=0; i < copy.length; i++){
+            let prod = copy[i];
+
+            if(prod._id == product._id){
+                prod.quantity +=product.quantity;
+                found = true;
+            }
+        }
+
+        if(!found){
+            copy.push(product);
+        }
+
+
         setCart(copy);
     }
 
