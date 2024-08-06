@@ -1,21 +1,31 @@
 import './styles/catalog.css';
 import Product from './product';
 import { useEffect, useState } from 'react';
-import dateService from '../services/dateService';
+import dataService from '../services/dataService';
 
 function Catalog(){
     const [products, setProducts] = useState([]);
     const [categories, setCategories] = useState([]);
 
     useEffect( function() {
-        console.log("Catalog loaded!");
-
-        const prods = dateService.getProducts();
-        setProducts(prods);
-
-        const cats = dateService.getCategories();
-        setCategories(cats);
+        // const prods = dateService.getProducts();
+        // setProducts(prods);
+        loadCatalog();
+        loadCategories();
+        // const cats = dataService.getCategories();
+        // setCategories(cats);
     }, []);
+
+    async function loadCatalog(){
+        let prods = await dataService.getProducts();
+        setProducts(prods);
+        console.log(prods);
+    }
+
+    async function loadCategories(){
+        let cats = await dataService.getCategories();
+        setCategories(cats);
+    }
 
     return(
         <div className='catalog page'>

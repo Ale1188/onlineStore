@@ -31,9 +31,9 @@ function Cart(){
                         <div className='cart-prod'>
                             <img src={'/images/' + prod.image} alt=''/>
                             <h5>{prod.title}</h5>
-                            <label>{prod.price.toFixed(2)}</label>
-                            <label>{prod.quantity}</label>
-                            <label>Total ${getTotalEach(prod)}</label>
+                            <label>Qty {prod.quantity}</label>
+                            <label>${prod.price.toFixed(2)}</label>
+                            <label>Price ${getTotalEach(prod)}</label>
                             <button className='btn btn-sm btn-danger'>Remove</button>
                         </div>
                     )}
